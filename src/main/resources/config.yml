@@ -1,0 +1,23 @@
+# Join our discord - https://discord.gg/YGzA4UxzFB you can find another good plugins there.
+# Permissions
+# "mapLocker.reload" - permission required to use "/maplocker reload" command
+
+# if true, players can lock their maps
+doLockMaps: true
+
+# if true, players can lock their templates
+doLockTemplates: true
+
+# supports MiniMessage
+messages:
+  reload:
+    usage: "<red>✘ <white>Usage: :\"/maplocker reload\" or \"/maplocker reloadrecipes\""
+    noPermissionToReload: "<red>✘ <white>You don't have permission to reload Config!"
+    recipesReloaded: "<green>✔ <white>Recipes reloaded!"
+    configReloaded: "<green>✔ <white>Config reloaded!"
+  items:
+    # after you changed this, run "/maplocker reloadrecipes"
+    locked: "<blue><bold>i <reset><white>Item is locked and can't be copied."
+  onCopyTry:
+    template: "<red>✘ <white>This template is locked and can't be copied."
+    map: "<red>✘ <white>This map is locked and can't be copied."
